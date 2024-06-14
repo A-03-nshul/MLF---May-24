@@ -112,13 +112,13 @@ They choose from a variety of models, with same structure but different paramete
 For the set of real numbers
 
 $$
-\reals
+\R
 $$
 
-d-dimensional Vector of reals
+d-dimensional Vector of R
 
 $$
-\reals^d
+\R^d
 $$
 
 **x** : Vector
@@ -161,7 +161,7 @@ In the simplest sense, it is **_Curve Fitting_**
 Given
 
 $$
-\{(x^1, y^1), (x^2, y^2), (x^3,y^3),...(x^n, y^n)\}
+{(x^1, y^1), (x^2, y^2), (x^3,y^3),...(x^n, y^n)}
 $$
 
 Model **_f_**
@@ -173,17 +173,17 @@ $$
 Let
 
 $$
-x^i \in \reals^d
+x^i \in \R^d
 $$
 
 $$
-y^i \in \reals
+y^i \in \R
 $$
 
 Then
 
 $$
-f: \reals^d \to \reals
+f: \R^d \to \R
 $$
 
 **Example:**
@@ -191,19 +191,19 @@ $$
 Training Data
 
 $$
-\{(x^1, y^1), (x^2, y^2), (x^3,y^3),...(x^n, y^n)\}
+{(x^1, y^1), (x^2, y^2), (x^3,y^3),...(x^n, y^n)}
 $$
 
 $$
-x^i \in \reals^d
+x^i \in \R^d
 $$
 
 $$
-y^i \in \reals
+y^i \in \R
 $$
 
 $$
-f: \reals^d \to \reals
+f: \R^d \to \R
 $$
 
 **Loss :** How far f(x) is from y - It should be **_minimized_** for Best results
@@ -239,17 +239,17 @@ The Labels **y** will be **+1 / -1**, for True /False.
 Let:
 
 $$
-x^i \in \reals^d
+x^i \in \R^d
 $$
 
 $$
-y^i \in \{+1, -1\}
+y^i \in {+1, -1}
 $$
 
 Algorithm Yields:
 
 $$
-f: \reals^d \to \{+1, -1\}
+f: \R^d \to {+1, -1}
 $$
 
 **Loss**: Fraction of Misclassified Instances
@@ -291,11 +291,11 @@ This has more to do with “_Understanding Data”._
 Data :
 
 $$
-\{x^1,x^2,...,x^n\}
+{x^1,x^2,...,x^n}
 $$
 
 $$
-x^i \in \reals^d
+x^i \in \R^d
 $$
 
 Build Models to _Compress, Explain & Group Data._
@@ -318,13 +318,13 @@ $$
 Encoder:
 
 $$
-f: \reals^d \to \reals^k \forall d>>k
+f: \R^d \to \R^k \forall d>>k
 $$
 
 Decoder:
 
 $$
-g: \reals^k \to \reals^d \forall d>>k
+g: \R^k \to \R^d \forall d>>k
 $$
 
 **Loss:**
@@ -340,11 +340,11 @@ Output is a Probabilistic Model - A Scoring Function such that **Total score = 1
 Data:
 
 $$
-\{x^1,x^2,...,x^n\}
+{x^1,x^2,...,x^n}
 $$
 
 $$
-x^i \in \reals^d
+x^i \in \R^d
 $$
 
 Probability Mapping:
